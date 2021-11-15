@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./asset/css/main.css">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <div class="tabs">
+                <div class="tab-item active"> Sign In </div>
+                <div class="tab-item">Sign Up </div>
+                <div class="line"></div>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-content-form active">
+                    <!-- Login Form -->
+                    <form action="index.html" method="post">
+                        <input type="text" id="login" class="fadeIn second" name="login" placeholder="Username">
+                        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
+                        <input type="submit" class="fadeIn fourth" value="Log In">
+                    </form>
+
+                    <!-- Remind Passowrd -->
+                    <div id="formFooter">
+                        <a class="underlineHover" href="#">Forgot Password?</a>
+                    </div>
+                </div>
+
+                <div class="tab-content-form">
+                    <form action="account.html" method="post">
+                        <input type="text" id="signup" class="fadeIn second" name="signup" placeholder="Username">
+                        <input type="text" id="password" class="fadeIn third" name="signup" placeholder="Password">
+                        <input type="text" id="confirmpwd" class="fadeIn third" name="signup" placeholder="Confirm Password">
+                        <input type="submit" class="fadeIn fourth" value="Sign Up">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="./asset/js/main.js"></script>
+</body>
+
+</html>
